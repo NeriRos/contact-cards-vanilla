@@ -1,0 +1,52 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Alex Jonathan",
+      "address": "Tel Aviv, Israel",
+      "role": "Graphic Designer",
+      "phone": "+1 123 456 789",
+      "photo": "alex jonathan.jpg",
+      "company": {
+        "name": "Twitter",
+        "address": "San Fransisco"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Janeth Carton",
+      "address": "Tel Aviv, Israel",
+      "role": "Graphic Designer",
+      "phone": "+1 123 456 789",
+      "photo": "janeth carton.jpg",
+      "company": {
+        "name": "Twitter",
+        "address": "San Fransisco"
+      }
+    },
+    {
+      "id": "3",
+      "name": "John Smith",
+      "address": "Tel Aviv, Israel",
+      "role": "Graphic Designer",
+      "phone": "+1 123 456 789",
+      "photo": "john-smith.jpg",
+      "company": {
+        "name": "Twitter",
+        "address": "San Fransisco"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Michael Zimber",
+      "address": "Tel Aviv, Israel",
+      "role": "Graphic Designer",
+      "phone": "+1 123 456 789",
+      "photo": "michael zimber.jpg",
+      "company": {
+        "name": "Twitter",
+        "address": "San Fransisco"
+      }
+    }
+  ]
+}

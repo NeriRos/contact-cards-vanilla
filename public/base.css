@@ -1,0 +1,15 @@
+:root {
+    --background-color: #F3F3F4;
+    --surface-color: white;
+
+    --text-font: 200 14px 'Helvetica';
+
+    --font-size: 14px;
+    --emphasized-font-weight: 400;
+    --emphasized-font: var(--emphasized-font-weight) 15px 'Helvetica';
+
+    --text-color: black;
+    --fainted-text-color: #666666;
+
+    --header-font: 600 16px 'Helvetica';
+}

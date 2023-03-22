@@ -1,0 +1,139 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+    font: var(--text-font);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contact-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact-list > li {
+    width: 33%;
+}
+
+.contact-card {
+    display: flex;
+    margin: 10px;
+    padding: 20px 20px 25px 20px;
+    position: relative;
+
+    background-color: var(--surface-color);
+}
+
+.contact-card.edit [contenteditable="true"] {
+    border: 1px dashed blue;
+    padding: 1px;
+}
+
+.contact-card-left, .contact-card-right, .contact-company-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-card-left {
+    align-items: center;
+    width: 45%;
+}
+
+.contact-photo {
+    border-radius: 100px;
+    max-width: 100px;
+}
+
+.contact-role {
+    margin-top: 10px;
+    font-weight: var(--emphasized-font-weight);
+}
+
+.contact-card-right {
+    margin-left: 15px;
+}
+
+.contact-name {
+    border-radius: 100px;
+    font: var(--header-font);
+}
+
+.contact-address::before {
+    content: "📌";
+    margin-right: 5px;
+}
+
+.contact-address {
+    margin: 10px 0;
+    color: var(--fainted-text-color);
+}
+
+.contact-company-container span {
+    margin-top: 3px;
+}
+
+.company-name {
+    font-weight: var(--emphasized-font-weight);
+}
+
+.company-address {
+    color: var(--fainted-text-color);
+}
+
+.contact-phone::before {
+    content: "P: ";
+}
+
+.contact-phone {
+    color: var(--fainted-text-color);
+}
+
+.actions-container {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+}
+
+.icon-button, .actions-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#add-contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    #contact-list {
+        width: 98%;
+    }
+
+    #contact-list > li {
+        width: 100%;
+        max-width: unset;
+    }
+
+    .contact-card-left {
+        width: 30%;
+    }
+}
